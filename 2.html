@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Turmeric</title>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-image: url('https://www.example.com/background-image.jpg');
+            background-color: #f2f2f2;
+            color: black;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            text-align: center;
+            padding: 8px;
+            border: 1px solid #ddd;
+            color: black;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        canvas {
+            max-width: 600px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Add styles to the pH row */
+        tr:last-child {
+            background-color: whitesmoke;
+            color: white;
+        }
+
+        .bottom-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            margin-left: 10px;
+            /* Adjust the left margin */
+        }
+
+        .additional-image {
+            max-width: 48%;
+            /* Adjust width as needed */
+            height: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1></b>TURMERIC</h1>
+        </div>
+    </header>
+    <nav>
+        <a href="home_page.html">Home</a>
+        <a href="temperature.html">Temperature</a>
+        <a href="moisture.html">Moisture</a>
+        <a href="ph.html">pH</a>
+        <a href="live.html">Live</a>
+        <a href="1.html">Golden Eye</a>
+        <a href="2.html">TURMERIC</a>
+        <a href="3.html">CREEPER</a>
+        <a href="4.html">LILLY</a>
+    </nav>
+    <div class="container">
+        <div>
+            <!-- Image below the heading -->
+            <img class="additional-image" src="tur.png" alt="Description of the additional image">
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Leaf Temperature</th>
+                    <th>Soil Moisture</th>
+                    <th>pH</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Add rows for each day with the average values -->
+                <tr>
+                    <td>Day 1</td>
+                    <td>28.1</td>
+                    <td>14.56</td>
+                    <td>5.31</td>
+                </tr>
+                <tr>
+                    <td>Day 2</td>
+                    <td>27.9</td>
+                    <td>15.3</td>
+                    <td>4.36</td>
+                </tr>
+                <tr>
+                    <td>Day 3</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                </tr>
+                <tr>
+                    <td>Day 4</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                </tr> <tr>
+                    <td>Day 5</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                </tr> <tr>
+                    <td>Day 6</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                </tr> <tr>
+                    <td>Day 7</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                </tr> <tr>
+                    <td>Day 8</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                </tr> <tr>
+                    <td>Day 9</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                </tr> <tr>
+                    <td>Day 10</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                </tr> <tr>
+                    <td>Day 11</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                </tr> <tr>
+                    <td>Day 12</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                    <td>XX</td>
+                </tr>
+                </tr>
+            </tbody>
+        </table>
+        <canvas id="chart"></canvas>
+     
+        <div class="analysis-section">
+            <h2>Behavioral Analysis</h2>
+
+            <strong>FAILURE ANALYSIS</strong>
+            <p>
+                For turmeric,we stopped collectingd data after two days.Because what we observed was that temperature was changing by a 
+                very less amount(almost negligible)for instant soil moisture change also.This indicates that water absorption capacity of
+                turmeric is very low as there was no change in temperature on increasing soil moisture by a significant amount.
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Add JavaScript to create the chart using Chart.js
+    </script>
+</body>
+
+</html>
